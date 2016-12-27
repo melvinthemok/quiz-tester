@@ -2,20 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trivial pursuit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <script src="./quiz.js"></script>
-    <script src="./quiz-tester.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./my-quiz.js"></script>
+    <!-- <script src="./quiz-tester.js"></script> -->
+    <script src="./main.js"></script>
 </head>
 <body>
-    <h3></h3>
-    <h3></h3>
-    <h1></h1>
-    <div>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 text-center'>
+        <h1 class='text-info'>Four important questions</h1>
+      </div>
     </div>
+    <div class='row'>
+      <div class='col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-0'>
+        <div class='row'>
+          <h3 class='query text-primary'></h3>
+        </div>
+        <div class='row text-center'>
+          <img class='col-md-12 hidden-xs'>
+        </div>
+        <div class='row text-center'>
+          <button class='btn btn-lg btn-primary'></button>
+          <button class='btn btn-lg btn-primary'></button>
+          <button class='btn btn-lg btn-primary'></button>
+          <button class='btn btn-lg btn-primary'></button>
+        </div>
+      </div>
+      <div class='col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-md-offset-1 text-center bg-info'>
+        <div class='col-xs-12 col-sm-6 col-md-12'>
+          <h3 class='score text-primary'></h3>
+        </div>
+        <div class='col-xs-12 col-sm-6 col-md-12'>
+          <h3 class='score text-primary'></h3>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

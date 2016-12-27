@@ -1,4 +1,4 @@
-/*global isGameOver, whoWon, playTurn, restart, currentQuestion, numberOfQuestions, numberOfAnswers,  correctAnswer*/
+/* global isGameOver, whoWon, playTurn, restart, currentQuestion, numberOfQuestions, numberOfAnswers,  correctAnswer */
 /* quiz-tester.js
 
 This script will test the game logic of your multiple choice quiz.
